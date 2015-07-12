@@ -1,3 +1,8 @@
+THIS REPO IS INCOMPLETE
+
+The objective is to create a pool of docker containers running tor and privoxy, each with a different country exit,
+and expose a service allowing proxying HTTP requests from different countries dynamically. 
+
 = Installation
   
   - Install Docker
