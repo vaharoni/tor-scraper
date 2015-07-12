@@ -14,6 +14,11 @@ RUN \
   apt-get autoremove -y && \
   apt-get clean
 
+RUN \
+  apt-get install -y --no-install-recommends curl && \
+  apt-get autoremove -y && \
+  apt-get clean
+
 # Add custom supervisor config
 ADD supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 

@@ -1290,7 +1290,7 @@ buffer-limit 4096
 #      To chain Privoxy and Tor, both running on the same system,
 #      you would use something like:
 #
-#      forward-socks5   /               127.0.0.1:9050 .
+forward-socks5   /               127.0.0.1:9050 .
 #
 #
 #      The public Tor network can't be used to reach your local network,
@@ -1315,7 +1315,7 @@ buffer-limit 4096
 #       forward           localhost/     .
 #
 #
-forward-socks4a / localhost:9050 .
+#     forward-socks4a / localhost:9050 .
 #
 #  5.3. forwarded-connect-retries
 #  ===============================
